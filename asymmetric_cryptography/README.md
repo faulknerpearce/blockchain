@@ -8,6 +8,8 @@ This repository demonstrates a basic implementation of cryptographic address gen
 2. [generate.js](#generatejs)
 3. [verify.js](#verifyjs)
 
+---
+
 ### address.js
 The `address.js` script defines an `Address` class, which represents a cryptographic address and provides functionality for message hashing and signing.
 
@@ -21,6 +23,8 @@ The `address.js` script defines an `Address` class, which represents a cryptogra
   - `hashMessage(message)`: Hashes the message with `keccak256` and returns the hash.
   - `signMessage(messageHash)`: Signs a message hash with the private key.
 
+---
+
 ### generate.js
 This script generates three public keys with associated private keys and assigns each public key an initial balance in a hashmap. It outputs the private keys for reference.
 
@@ -32,6 +36,8 @@ This script generates three public keys with associated private keys and assigns
 #### Function:
 - `generate_addresses()`: Creates three public/private key pairs, initializes balances, and logs private keys.
 
+---
+
 ### verify.js
 The `verify.js` script demonstrates message verification by hashing a message, signing it, and verifying the signature with the sender's public key.
 
@@ -42,6 +48,8 @@ The `verify.js` script demonstrates message verification by hashing a message, s
 #### Functions:
 - `hashMessage(message)`: Hashes a message string using `keccak256`.
 - `verify_signature(signature, message)`: Verifies a given signature by comparing it with a recovered public key from the message.
+
+---
 
 #### Main Program:
 In the `main()` function, two sample addresses are created with predefined private keys. A message representing a transaction is hashed, signed by `wallet_one`, and then verified. This example showcases the full process of creating and verifying a signed message.
