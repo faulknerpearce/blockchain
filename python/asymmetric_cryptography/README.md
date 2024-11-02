@@ -13,6 +13,8 @@ This script provides foundational cryptographic functions, including key pair ge
 - `create_signature(message, private_key)`: Signs a given message using the private key, producing a signature.
 - `verify_signature(signature, message, public_key)`: Verifies the authenticity of a message's signature using the public key, ensuring it was signed by the corresponding private key.
 
+---
+
 ### signature.py
 This script demonstrates a simple transaction system where funds are transferred between accounts and signed transactions are verified before updating a ledger.
 
@@ -26,6 +28,8 @@ This script demonstrates a simple transaction system where funds are transferred
 - `create_transaction(current_ledger)`: Prompts for transaction details and validates the sender's balance.
 - `sign_transaction(transaction, private_key)`: Signs a transaction with a private key if confirmed by the user.
 - `update_ledger(signature, transaction, public_key, current_ledger)`: Verifies the transaction signature and updates the ledger if valid.
+
+---
 
 ### wallet.py
 The wallet.py script simulates a digital wallet. 
