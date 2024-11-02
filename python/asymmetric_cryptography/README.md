@@ -5,6 +5,8 @@ The examples are built in Python, leveraging cryptographic libraries to generate
 
 ## Contents
 
+---
+
 ### keygen.py
 This script provides foundational cryptographic functions, including key pair generation, message signing, and signature verification.
 
