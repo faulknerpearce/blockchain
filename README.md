@@ -1,8 +1,9 @@
 # Blockchain Projects
 
-This repository contains a variety of scripts demonstrating blockchain and cryptography used in cryptocurrency for educational and demonstration purposes.  
+variety of blockchain and cryptography scripts intended for educational and demonstration purposes. 
+These projects illustrate foundational concepts in cryptocurrency, secure digital signatures, and data integrity verification.
 
-# Contents
+## Contents
 
 ### Asymmetric Cryptography
 Scripts demonstrating the principles of asymmetric cryptography, including key pair generation, encryption, and verifcation.
