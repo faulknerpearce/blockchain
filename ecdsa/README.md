@@ -41,6 +41,7 @@ The server is built with Node.js and Express and includes the following files:
 - **NPM**: Node Package Manager comes with Node.js and is used for dependency management.
 
 ### Step-by-Step Guide
+-- Open two termimal shells, one in the clent folder and one in the server folder.
 
 ### Client
 The client folder contains a React app using Vite. To get started, follow these steps:
