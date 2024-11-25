@@ -1,6 +1,6 @@
 const secp = require("ethereum-cryptography/secp256k1");
 const { keccak256 } = require("ethereum-cryptography/keccak");
-const { toHex, utf8ToBytes } = require("ethereum-cryptography/utils");
+const { utf8ToBytes } = require("ethereum-cryptography/utils");
 
 // Represents a cryptographic address with public and private keys as Uint8Arrays, allowing message hashing and signing.
 class Address {
